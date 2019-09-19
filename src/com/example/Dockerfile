@@ -1,5 +1,5 @@
 FROM openjdk
 COPY . ./var/www/java
 WORKDIR /var/www/java
-RUN javac HelloWorld.java
-CMD ["javac", "HelloWorld"]
+RUN javac Hello.java
+CMD ["javac", "Hello"]
